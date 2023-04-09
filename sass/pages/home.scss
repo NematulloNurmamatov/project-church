@@ -372,6 +372,9 @@ main {
 
                 }
             }
+            .rasm {
+                margin-left: 20px;
+            }
 
         }
     }
@@ -385,6 +388,7 @@ main {
                     flex-direction: column-reverse;
                     .bir {
                         width: 100%;
+                        padding-bottom: 20px;
                     }
                 }
             }
@@ -455,8 +459,11 @@ main {
                 flex-direction: column;
                 align-items: center;
                 text-align: center;
-                img {
-                    margin-top: 30px;
+                .rasm {
+                    margin-left: 0px;
+                    img {
+                        margin-top: 30px;
+                    }
                 }
             }
         }
