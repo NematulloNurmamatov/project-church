@@ -25,4 +25,18 @@ input:focus {
   max-width: 1280px;
   margin: auto;
   padding: 0px 20px;
-}/*# sourceMappingURL=about-us.css.map */
+}
+
+.about {
+  background-image: url(../../img/About/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #161722;
+}
