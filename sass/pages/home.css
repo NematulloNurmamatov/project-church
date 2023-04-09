@@ -350,6 +350,9 @@ main .section4 .sec4 .br button:hover {
 main .section4 .sec4 .rasm {
   margin-left: 20px;
 }
+main .section4 .sec4 .rasm img {
+  width: 100%;
+}
 
 @media (max-width: 1122px) {
   main .section3 .sec3 .flex {
@@ -402,6 +405,8 @@ main .section4 .sec4 .rasm {
     line-height: 70px;
   }
   main .section2 .sec2 .people {
+    width: 60%;
+    margin: auto;
     flex-direction: column;
     margin-top: 50px;
   }
@@ -422,6 +427,15 @@ main .section4 .sec4 .rasm {
   main .section1 .sec1 .text button {
     padding: 18px 50px;
   }
+  main .section2 .sec2 h1 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  main .section2 .sec2 .people {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+  }
   main .section3 .sec3 h2 {
     font-size: 30px;
     line-height: 50px;
@@ -438,6 +452,11 @@ main .section4 .sec4 .rasm {
   }
 }
 @media (max-width: 460px) {
+  main .section2 .sec2 .people {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+  }
   main .section3 .sec3 h2 {
     font-size: 27px;
     line-height: 40px;
@@ -448,10 +467,56 @@ main .section4 .sec4 .rasm {
     font-size: 35px;
     line-height: 50px;
   }
+  main .section2 .sec2 .people {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+  }
   main .section3 .sec3 .flex .bir button {
     padding: 20px 50px;
   }
   main .section4 .sec4 .br button {
     padding: 20px 50px;
+  }
+  main .section4 .sec4 .br h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 350px) {
+  main .section4 .sec4 {
+    padding: 20px 20px;
+  }
+  main .section4 .sec4 .br button {
+    padding: 20px 50px;
+  }
+  main .section4 .sec4 .br h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 300px) {
+  main .section1 .sec1 .text h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  main .section1 .sec1 .text button {
+    padding: 15px 40px;
+  }
+  main .section2 .sec2 h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  main .section3 .sec3 h2 {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  main .section4 .sec4 {
+    padding: 20px 20px;
+  }
+  main .section4 .sec4 .br button {
+    padding: 20px 50px;
+  }
+  main .section4 .sec4 .br h1 {
+    font-size: 20px;
+    line-height: 35px;
   }
 }/*# sourceMappingURL=home.css.map */
