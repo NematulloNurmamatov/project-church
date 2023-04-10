@@ -151,6 +151,7 @@ input[type=checkbox] {
     color: cyan;
   }
 }
+/* Footer */
 .row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

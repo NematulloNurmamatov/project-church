@@ -1,1 +1,16 @@
 @use "../global";
+
+.about{
+  background-image: url(../../img/About/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  p{
+    font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+text-transform: uppercase;
+color: #161722;
+  }
+}
