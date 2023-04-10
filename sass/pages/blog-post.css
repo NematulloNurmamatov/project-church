@@ -28,11 +28,6 @@ input:focus {
 
 .container {
   max-width: 1280px;
-<<<<<<< HEAD
-  margin: auto;
-  padding: 0px 20px;
-}
-=======
   margin: 0px auto;
   padding: 0px 20px;
 }
@@ -117,4 +112,3 @@ body .conteiner {
 .conteiner .second-content ul li {
   margin-top: 8px;
 }/*# sourceMappingURL=blog-post.css.map */
->>>>>>> 97d6f83429cbddca0dfce9515d1db3a23a679a03
