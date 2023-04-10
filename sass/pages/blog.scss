@@ -1,4 +1,119 @@
 @use "../global";
+.section5 {
+        .sec5 {
+            margin-bottom: 50px;
+            .rr {
+                text-align: center;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                text-transform: uppercase;
+                color: #161722;
+                margin-top: 128px;
+            }
+
+            .sh {
+                text-align: center;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 64px;
+                text-align: center;
+                letter-spacing: -0.01em;
+                text-transform: uppercase;
+                color: #161722;
+                margin-top: 16px;
+                margin-bottom: 64px;
+
+            }
+
+            .cardlar {
+                display: flex;
+                justify-content: space-between;
+
+                .k {
+                    background-color: #FFF5EB;
+                    width: 24%;
+                    overflow: hidden;
+
+
+                    .r {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 12px;
+                        line-height: 14px;
+                        letter-spacing: 0.08em;
+                        text-transform: uppercase;
+                        margin-bottom: 16px;
+                        color: #A54E2B;
+                    }
+
+                    h1 {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 28px;
+                        letter-spacing: -0.01em;
+                        text-transform: uppercase;
+                        color: #161722;
+                    }
+
+                    .l {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #161722;
+                        opacity: 0.78;
+                        margin-top: 16px;
+                        margin-bottom: 48px;
+
+                    }
+
+                    .b {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #161722;
+                    }
+
+                    .t {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #161722;
+                        margin-top: 4px;
+                        margin-bottom: 32px;
+                    }
+
+                    img {
+                        width: 10%;
+                        height: 10px;
+                        background: red;
+                        transition: width 2s;
+                    }
+                }
+                .k:hover {
+                    img {
+                        width: 300px;
+                    }
+                }
+                .sc {
+                    padding-top: 48px;
+                    padding-left: 32px;
+                    padding-right: 32px;
+                }
+
+                .c1 {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+
 .blog-main {
 background: #FFF5EB;
   h3{
@@ -125,6 +240,7 @@ opacity: 0.8;
     }
   }
 }
+
 @media(max-width: 1236px) {
                 .box {
                   grid-template-columns: 1fr !important;
