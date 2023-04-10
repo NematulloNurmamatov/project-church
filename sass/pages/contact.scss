@@ -45,7 +45,7 @@ header {
   width: 624px;
   height: 484px;
   left: 110px;
-  top: 691px;
+  top: 819px;
   position: absolute;
   width: 1500px;
   height: 483px;
@@ -54,4 +54,33 @@ header {
   .Address {
     margin-left: 128px;
   }
+}
+
+input[type='text'] {
+  display: block;
+  border: none;
+  width: 624px;
+  height: 40px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+
+input[type='email'] {
+  display: block;
+  border: none;
+  width: 624px;
+  height: 40px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+
+input[type='submit'] {
+  /* display: block; */
+  width: 624px;
+  height: 40px;
+  margin-bottom: 12px;
+  border: none;
+  color: #1C1D28;
+  background: #FFD2A4;
+  border-radius: 4px;
 }
