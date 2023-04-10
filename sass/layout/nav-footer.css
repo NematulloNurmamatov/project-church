@@ -22,13 +22,13 @@
 }
 
 nav {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   background: black;
   width: 100%;
   box-shadow: 0px 4px 10px 6px rgba(49, 48, 48, 0.339);
 }
-
 nav .nav {
   display: flex;
   height: 80px;
@@ -38,7 +38,6 @@ nav .nav {
   flex-wrap: wrap;
   padding: 0px 20px;
 }
-
 nav .nav .logo {
   display: flex;
   align-items: center;
@@ -47,14 +46,12 @@ nav .nav .logo {
   font-size: 21px;
   font-weight: 600;
 }
-
 nav .nav .logo a {
   font-family: "Roboto Condensed";
   text-decoration: none;
   list-style: none;
   color: white;
 }
-
 nav .nav button {
   background: #ffd2a4;
   color: black;
@@ -65,24 +62,20 @@ nav .nav button {
   transition: 0.5s;
   border-radius: 7px;
 }
-
 nav .nav button:hover {
   background: white;
   color: black;
   border: 1px solid black;
 }
-
 nav ul {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   list-style: none;
 }
-
 nav ul li {
   margin: 0 5px;
 }
-
 nav ul li a {
   color: #959697;
   text-decoration: none;
@@ -93,7 +86,6 @@ nav ul li a {
   letter-spacing: 1px;
   transition: all 0.1s ease;
 }
-
 nav .nav ul li a:hover {
   color: aqua;
 }
@@ -105,7 +97,7 @@ nav .nav ul li a:hover {
   display: none;
 }
 
-input[type="checkbox"] {
+input[type=checkbox] {
   display: none;
 }
 
@@ -147,7 +139,7 @@ input[type="checkbox"] {
     margin-left: 0px;
   }
   .nav ul li a.active,
-  .nav ul li a:hover {
+.nav ul li a:hover {
     background: none;
     color: cyan;
   }
@@ -161,7 +153,6 @@ input[type="checkbox"] {
     content: "\f00d";
   }
 }
-
 /* Footer */
 .row {
   display: grid;
@@ -201,7 +192,7 @@ ul {
 }
 
 .footer-col h4::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: -10px;
@@ -245,6 +236,14 @@ ul {
   width: 100%;
 }
 
+input::-moz-placeholder {
+  color: white;
+}
+
+input:-ms-input-placeholder {
+  color: white;
+}
+
 input::placeholder {
   color: white;
 }
@@ -270,7 +269,6 @@ input::placeholder {
     padding: 0 5px;
   }
 }
-
 @media (max-width: 850px) {
   .row {
     display: grid;
@@ -283,7 +281,7 @@ input::placeholder {
     justify-content: center;
   }
   .footer-col h4::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -297,4 +295,3 @@ input::placeholder {
     display: none;
   }
 }
-/*# sourceMappingURL=nav-footer.css.map */

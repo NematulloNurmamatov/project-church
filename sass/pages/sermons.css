@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+<<<<<<< HEAD
+=======
+* {
+  font-family: "Roboto Condensed";
+}
+
+>>>>>>> 32869170ef48697aae436693d0e5f271b73d7c4d
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -23,6 +30,12 @@ input:focus {
 
 .container {
   max-width: 1280px;
+<<<<<<< HEAD
   margin: 0px auto;
   padding: 0px 20px;
 }/*# sourceMappingURL=sermons.css.map */
+=======
+  margin: auto;
+  padding: 0px 20px;
+}
+>>>>>>> 32869170ef48697aae436693d0e5f271b73d7c4d
