@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 * {
   margin: 0;
@@ -142,4 +143,124 @@ input[type="checkbox"]{
     background: none;
     color: cyan;
   }
+}
+
+.row{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	justify-content: space-between;
+	padding: 0px 20px;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 100%;
+}
+.col1-2{
+	width: 100%;
+ }
+ .c{
+	padding-left: 120px;
+ }
+.footer-col h4{
+	font-size: 17px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links{
+	display: flex;
+}
+.footer-col .social-links input{
+	padding: 10px 5px;
+	border: 1px solid rgba(235, 240, 249, 0.3);
+	background-color: transparent;
+	border-radius: 4px;
+	outline: none;
+	color: white;
+	width: 100%;
+}
+input::placeholder{
+	color: white;
+}
+.footer-col .social-links button{
+	color: #24262b;
+	background: #FFD2A4;
+	border-radius: 12px;
+	padding: 8px 20px;
+	border: none;
+	cursor: pointer;
+	margin-left: -10px;
+}
+
+/*responsive*/
+@media(max-width: 957px){
+	.row{
+		display: grid;
+		grid-template-columns: repeat(4,1fr);
+	}
+	.col1{
+		width: 100%;
+		padding: 0 5px;
+	 }
+}
+@media(max-width: 850px){
+	.row{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		gap: 25px;
+		text-align: center;
+	}
+	.footer-col .social-links{
+		display: flex;
+		justify-content: center;
+	}
+	.footer-col h4::before{
+		content: '';
+		position: absolute;
+		left:0;
+		bottom: -10px;
+		background-color: #e91e63;
+		height: 2px;
+		box-sizing: border-box;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.a{
+		display: none;
+	}
 }
