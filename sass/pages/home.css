@@ -402,13 +402,13 @@ main .section5 .sec5 .cardlar {
   justify-content: space-between;
 }
 
-main .section5 .sec5 .cardlar .c {
+main .section5 .sec5 .cardlar .k {
   background-color: #FFF5EB;
   width: 24%;
   overflow: hidden;
 }
 
-main .section5 .sec5 .cardlar .c .r {
+main .section5 .sec5 .cardlar .k .r {
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -419,7 +419,7 @@ main .section5 .sec5 .cardlar .c .r {
   color: #A54E2B;
 }
 
-main .section5 .sec5 .cardlar .c h1 {
+main .section5 .sec5 .cardlar .k h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -429,7 +429,7 @@ main .section5 .sec5 .cardlar .c h1 {
   color: #161722;
 }
 
-main .section5 .sec5 .cardlar .c .l {
+main .section5 .sec5 .cardlar .k .l {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -440,7 +440,7 @@ main .section5 .sec5 .cardlar .c .l {
   margin-bottom: 48px;
 }
 
-main .section5 .sec5 .cardlar .c .b {
+main .section5 .sec5 .cardlar .k .b {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -448,7 +448,7 @@ main .section5 .sec5 .cardlar .c .b {
   color: #161722;
 }
 
-main .section5 .sec5 .cardlar .c .t {
+main .section5 .sec5 .cardlar .k .t {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -458,14 +458,14 @@ main .section5 .sec5 .cardlar .c .t {
   margin-bottom: 32px;
 }
 
-main .section5 .sec5 .cardlar .c img {
+main .section5 .sec5 .cardlar .k img {
   width: 10%;
   height: 10px;
   background: red;
   transition: width 2s;
 }
 
-main .section5 .sec5 .cardlar .c:hover img {
+main .section5 .sec5 .cardlar .k:hover img {
   width: 300px;
 }
 
