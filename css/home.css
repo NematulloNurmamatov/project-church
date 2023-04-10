@@ -1,36 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-* {
-  font-family: "Roboto Condensed";
-}
-
-*, *::after, *::before {
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-}
-
-button {
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-input:focus {
-  outline: none;
-}
-
-.container {
-  max-width: 1280px;
-  margin: auto;
-  padding: 0px 20px;
-}
-
+@use "../global";
 main .section1 .sec1 {
   background-image: url(../../img/nematullo/homer.jpg);
   width: 100%;
@@ -40,18 +8,20 @@ main .section1 .sec1 {
   padding-bottom: 200px;
   background-attachment: fixed;
 }
+
 main .section1 .sec1 .text .p1 {
   padding-top: 280px;
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   text-transform: uppercase;
 }
+
 main .section1 .sec1 .text h1 {
   width: 50%;
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
@@ -60,6 +30,7 @@ main .section1 .sec1 .text h1 {
   text-transform: uppercase;
   margin-top: 16px;
 }
+
 main .section1 .sec1 .text button {
   all: unset;
   cursor: pointer;
@@ -69,25 +40,33 @@ main .section1 .sec1 .text button {
   border-radius: 12px;
   color: #1C1D28;
   margin-top: 32px;
-  transition: 0.5s;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
+
 main .section1 .sec1 .text button:hover {
   background-color: transparent;
   color: #FFD2A4;
 }
+
 main .section1 .sec1 .text .c {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 64px;
 }
+
 main .section1 .sec1 .text .c p {
   margin-left: 10px;
 }
+
 main .section2 .sec2 {
   text-align: center;
   margin-top: 100px;
   color: #161722;
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto Condensed';
 }
+
 main .section2 .sec2 .sub {
   font-style: normal;
   font-weight: 400;
@@ -96,6 +75,7 @@ main .section2 .sec2 .sub {
   text-transform: uppercase;
   margin-bottom: 16px;
 }
+
 main .section2 .sec2 h1 {
   font-style: normal;
   font-weight: 700;
@@ -106,9 +86,11 @@ main .section2 .sec2 h1 {
   text-transform: uppercase;
   margin-bottom: 32px;
 }
+
 main .section2 .sec2 .lorem {
   margin-bottom: 56px;
 }
+
 main .section2 .sec2 button {
   all: unset;
   cursor: pointer;
@@ -117,38 +99,56 @@ main .section2 .sec2 button {
   border: 1px solid #FFD2A4;
   color: #161722;
   border-radius: 12px;
-  transition: 0.5s;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
+
 main .section2 .sec2 button:hover {
   background-color: transparent;
 }
+
 main .section2 .sec2 .people {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: -40px;
 }
+
 main .section2 .sec2 .people img {
   width: 100%;
 }
+
 main .section2 .sec2 .people .ikki {
   margin-top: 100px;
   margin-left: 10px;
   margin-right: 10px;
 }
+
 main .section2 .sec2 .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 16px;
 }
+
 main .section2 .sec2 .bottom p {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-size: 14px;
   color: #161722;
   margin-right: 10px;
 }
+
 main .section2 .sec2 .our {
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -159,8 +159,9 @@ main .section2 .sec2 .our {
   margin-top: 64px;
   margin-bottom: 16px;
 }
+
 main .section2 .sec2 h2 {
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -171,8 +172,9 @@ main .section2 .sec2 h2 {
   color: #161722;
   margin-bottom: 16px;
 }
+
 main .section2 .sec2 .lor {
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -181,23 +183,30 @@ main .section2 .sec2 .lor {
   color: #161722;
   opacity: 0.78;
 }
+
 main .section3 {
   margin-top: 120px;
 }
+
 main .section3 .sec3 {
   margin-bottom: 100px;
 }
+
 main .section3 .sec3 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: #FFF5EB;
 }
+
 main .section3 .sec3 .flex .bir {
   width: 40%;
   padding-top: 60px;
   padding-left: 90px;
 }
+
 main .section3 .sec3 .flex .bir h1 {
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -207,8 +216,9 @@ main .section3 .sec3 .flex .bir h1 {
   color: #161722;
   margin: 16px 0px;
 }
+
 main .section3 .sec3 .flex .bir .lr {
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -217,13 +227,18 @@ main .section3 .sec3 .flex .bir .lr {
   opacity: 0.78;
   margin-bottom: 32px;
 }
+
 main .section3 .sec3 .flex .bir .fl {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 16px;
 }
+
 main .section3 .sec3 .flex .bir .fl img {
   margin-right: 16px;
 }
+
 main .section3 .sec3 .flex .bir button {
   cursor: pointer;
   padding: 24px 64px;
@@ -231,22 +246,31 @@ main .section3 .sec3 .flex .bir button {
   border: 1px solid #161722;
   color: #FFD2A4;
   border-radius: 12px;
-  transition: 0.5s;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
+
 main .section3 .sec3 .flex .bir button:hover {
   background-color: transparent;
   color: #161722;
 }
+
 main .section3 .sec3 .flex .bir .fex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 main .section3 .sec3 .flex .bir .fex .plar {
   padding-right: 20px;
   margin-top: -30px;
 }
+
 main .section3 .sec3 .flex .bir .fex .plar .y {
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -255,8 +279,9 @@ main .section3 .sec3 .flex .bir .fex .plar .y {
   text-transform: uppercase;
   color: #161722;
 }
+
 main .section3 .sec3 .flex .bir .fex .plar .x {
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -264,12 +289,14 @@ main .section3 .sec3 .flex .bir .fex .plar .x {
   text-transform: uppercase;
   color: #161722;
 }
+
 main .section3 .sec3 .flex .ikki img {
   width: 100%;
 }
+
 main .section3 .sec3 .up {
   text-align: center;
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -277,9 +304,10 @@ main .section3 .sec3 .up {
   text-transform: uppercase;
   color: #161722;
 }
+
 main .section3 .sec3 h2 {
   text-align: center;
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -291,6 +319,7 @@ main .section3 .sec3 h2 {
   margin-top: 16px;
   margin-bottom: 64px;
 }
+
 main .section4 {
   background-image: url(../../img/nematullo/Background.png);
   width: 100%;
@@ -301,14 +330,18 @@ main .section4 {
   padding-right: 20px;
   padding-bottom: 100px;
 }
+
 main .section4 .sec4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   border-radius: 12px;
   padding: 72px 48px;
 }
+
 main .section4 .sec4 .br h1 {
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -317,8 +350,9 @@ main .section4 .sec4 .br h1 {
   text-transform: uppercase;
   color: #161722;
 }
+
 main .section4 .sec4 .br .t {
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -328,6 +362,7 @@ main .section4 .sec4 .br .t {
   margin-top: 16px;
   margin-bottom: 16px;
 }
+
 main .section4 .sec4 .br button {
   cursor: pointer;
   background-color: #FFD2A4;
@@ -335,7 +370,7 @@ main .section4 .sec4 .br button {
   color: #161722;
   padding: 24px 64px;
   border-radius: 12px;
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -343,32 +378,157 @@ main .section4 .sec4 .br button {
   text-align: center;
   text-transform: uppercase;
   color: #1C1D28;
-  transition: 0.5s;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
+
 main .section4 .sec4 .br button:hover {
   background-color: transparent;
 }
+
 main .section4 .sec4 .rasm {
   margin-left: 20px;
 }
+
 main .section4 .sec4 .rasm img {
   width: 100%;
 }
 
+main .section5 .sec5 {
+  margin-bottom: 50px;
+}
+
+main .section5 .sec5 .rr {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #161722;
+  margin-top: 128px;
+}
+
+main .section5 .sec5 .sh {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161722;
+  margin-top: 16px;
+  margin-bottom: 64px;
+}
+
+main .section5 .sec5 .cardlar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .section5 .sec5 .cardlar .c {
+  background-color: #FFF5EB;
+  width: 24%;
+  overflow: hidden;
+}
+
+main .section5 .sec5 .cardlar .c .r {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  color: #A54E2B;
+}
+
+main .section5 .sec5 .cardlar .c h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161722;
+}
+
+main .section5 .sec5 .cardlar .c .l {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161722;
+  opacity: 0.78;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+main .section5 .sec5 .cardlar .c .b {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #161722;
+}
+
+main .section5 .sec5 .cardlar .c .t {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161722;
+  margin-top: 4px;
+  margin-bottom: 32px;
+}
+
+main .section5 .sec5 .cardlar .c img {
+  width: 10%;
+  height: 10px;
+  background: red;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+main .section5 .sec5 .cardlar .c:hover img {
+  width: 300px;
+}
+
+main .section5 .sec5 .cardlar .sc {
+  padding-top: 48px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+main .section5 .sec5 .cardlar .c1 {
+  margin-left: 10px;
+}
+
 @media (max-width: 1122px) {
   main .section3 .sec3 .flex {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
   main .section3 .sec3 .flex .bir {
     width: 100%;
     padding-bottom: 20px;
   }
 }
+
 @media (max-width: 1000px) {
   main .section1 .sec1 .text h1 {
     width: 100%;
   }
 }
+
 @media (max-width: 900px) {
   main .section1 .sec1 .text h1 {
     font-size: 55px;
@@ -377,20 +537,27 @@ main .section4 .sec4 .rasm img {
     font-size: 15px;
   }
 }
+
 @media (max-width: 800px) {
   main .section4 .sec4 .br h1 {
     font-size: 38px;
     line-height: 55px;
   }
 }
+
 @media (max-width: 700px) {
   main .section3 .sec3 h2 {
     font-size: 38px;
     line-height: 60px;
   }
   main .section4 .sec4 {
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
   }
   main .section4 .sec4 .rasm {
@@ -400,6 +567,7 @@ main .section4 .sec4 .rasm img {
     margin-top: 30px;
   }
 }
+
 @media (max-width: 600px) {
   main .section1 .sec1 .text h1 {
     font-size: 45px;
@@ -408,7 +576,10 @@ main .section4 .sec4 .rasm img {
   main .section2 .sec2 .people {
     width: 60%;
     margin: auto;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-top: 50px;
   }
   main .section2 .sec2 .people .ikki {
@@ -418,12 +589,14 @@ main .section4 .sec4 .rasm img {
     margin-bottom: 30px;
   }
 }
+
 @media (max-width: 560px) {
   main .section3 .sec3 h2 {
     font-size: 33px;
     line-height: 56px;
   }
 }
+
 @media (max-width: 500px) {
   main .section1 .sec1 .text button {
     padding: 18px 50px;
@@ -452,6 +625,7 @@ main .section4 .sec4 .rasm img {
     line-height: 45px;
   }
 }
+
 @media (max-width: 460px) {
   main .section2 .sec2 .people {
     width: 80%;
@@ -463,6 +637,7 @@ main .section4 .sec4 .rasm img {
     line-height: 40px;
   }
 }
+
 @media (max-width: 400px) {
   main .section1 .sec1 .text h1 {
     font-size: 35px;
@@ -483,6 +658,7 @@ main .section4 .sec4 .rasm img {
     font-size: 30px;
   }
 }
+
 @media (max-width: 350px) {
   main .section4 .sec4 {
     padding: 20px 20px;
@@ -494,6 +670,7 @@ main .section4 .sec4 .rasm img {
     font-size: 25px;
   }
 }
+
 @media (max-width: 300px) {
   main .section1 .sec1 .text h1 {
     font-size: 30px;
