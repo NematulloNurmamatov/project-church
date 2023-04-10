@@ -479,6 +479,7 @@ main .section4 .sec4 .rasm img {
   main .section4 .sec4 .br button {
     padding: 20px 50px;
   }
+<<<<<<< HEAD
   main .section4 .sec4 .br h1 {
     font-size: 30px;
   }
@@ -521,3 +522,6 @@ main .section4 .sec4 .rasm img {
     line-height: 35px;
   }
 }/*# sourceMappingURL=home.css.map */
+=======
+}
+>>>>>>> 9e133c99b0c009376772d6bea12f7cb252c40651
