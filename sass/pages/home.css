@@ -1,4 +1,8 @@
 @use "../global";
+html {
+  scroll-behavior: smooth;
+}
+
 main .section1 .sec1 {
   background-image: url(../../img/nematullo/homer.jpg);
   width: 100%;

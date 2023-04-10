@@ -1,5 +1,9 @@
 @use "../global";
 
+html {
+    scroll-behavior: smooth;
+}
+
 main {
     .section1 {
         .sec1 {
