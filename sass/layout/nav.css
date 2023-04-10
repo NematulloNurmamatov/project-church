@@ -5,7 +5,7 @@
 }
 
 * {
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto Condensed';
 }
 
 *, *::after, *::before {
@@ -46,7 +46,7 @@ nav {
 }
 
 .nav .logo a {
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto Condensed';
   text-decoration: none;
   list-style: none;
   color: white;
@@ -85,7 +85,7 @@ nav {
   border: none;
   cursor: pointer;
   border: 1px solid black;
-  transition: 0.5s;
+  transition: .5s;
   border-radius: 7px;
 }
 
@@ -102,7 +102,7 @@ nav {
   display: none;
 }
 
-input[type=checkbox] {
+input[type="checkbox"] {
   display: none;
 }
 
@@ -149,4 +149,5 @@ input[type=checkbox] {
     background: none;
     color: cyan;
   }
-}/*# sourceMappingURL=nav.css.map */
+}
+/*# sourceMappingURL=nav.css.map */

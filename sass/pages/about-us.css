@@ -39,7 +39,6 @@ html {
 body * {
   font-family: "Roboto Condensed";
 }
-
 .about {
   background-image: url(../../img/About/bg.png);
   background-repeat: no-repeat;
@@ -280,6 +279,7 @@ body * {
 .svg svg:hover path {
   fill: orange;
 }
+ .footer__about{ margin-top: 128px;  }
 
 @media (max-width: 850px) {
   .inspiration {
@@ -325,3 +325,4 @@ body * {
     font-size: 24px;
   }
 }
+
