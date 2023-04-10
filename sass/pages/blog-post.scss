@@ -1,1 +1,118 @@
 @use "../global";
+@use "../layout/container";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto';
+    // p{
+    //     color: #161722;
+    //     opacity: 0.78;
+    // }
+}
+
+
+body {
+    .conteiner {
+        max-width: 1280px;
+        margin: 0px auto;
+    }
+
+}
+
+.conteiner {
+    .first-content {
+        text-align: center;
+    }
+
+    
+    p {
+        color: #A54E2B;
+        font-style: normal;
+        // font-weight: 700;
+        // font-size: 12px;
+        // line-height: 14px;
+        // letter-spacing: 0.08em;
+        // text-transform: uppercase;
+    }
+
+    .by {
+        display: flex;
+        justify-content: center;
+
+        p {
+            color: #161722;
+            opacity: 0.78;
+            margin-top: 16px;
+            margin-left: 13px;
+        }
+    }
+
+    h2 {
+        margin-top: 16px;
+    }
+
+    .img-1 {
+        margin-top: 64px;
+        width: 100%;
+    }
+}
+
+.conteiner {
+    .second-content {
+        padding: 0px 25%;
+
+        p {
+            color: #161722;
+            opacity: 0.78;
+            margin-top: 16px;
+        }
+
+        .img-2 {
+            margin-top: 64px;
+            margin-bottom: 48px;
+            width: 100%;
+        }
+
+        .content {
+            overflow: hidden;
+            width: 100%;
+            height: 100px;
+            margin-top: 24px;
+            display: flex;
+
+            .img-3 {
+                width: 3px;
+            }
+
+            p {
+                margin-left: 24px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 130%;
+                opacity: 0.78;
+                color: #161722;
+            }
+
+        }
+
+        h4 {
+            font-size: 24px;
+            font-weight: 700;
+            // line-height: 44px;
+            margin-top: 40px;
+        }
+
+        ul {
+            margin-top: 32px;
+            color: #161722;
+            opacity: 0.78;
+            margin-left: 20px;
+
+            li {
+                margin-top: 8px;
+            }
+        }
+
+    }
+}

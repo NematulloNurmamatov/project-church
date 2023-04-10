@@ -24,6 +24,7 @@ body * {
   color: #161722;
 }
 
+<<<<<<< HEAD
 .main__1 h1 {
   padding-bottom: 160px;
   font-weight: 700;
@@ -322,3 +323,24 @@ body * {
   }
 }
 /*# sourceMappingURL=about-us.css.map */
+=======
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0px auto;
+  padding: 0px 20px;
+}/*# sourceMappingURL=about-us.css.map */
+>>>>>>> 97d6f83429cbddca0dfce9515d1db3a23a679a03
