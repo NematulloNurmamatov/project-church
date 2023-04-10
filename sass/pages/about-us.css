@@ -257,6 +257,7 @@ body * {
   text-transform: uppercase;
   color: #161722;
 }
+<<<<<<< HEAD
 .inspiration .meet__item p {
   padding-bottom: 16px;
   font-weight: 400;
@@ -326,3 +327,33 @@ body * {
   }
 }
 
+=======
+<<<<<<< HEAD
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  padding: 0px 20px;
+}
+=======
+/*# sourceMappingURL=about-us.css.map */
+>>>>>>> 282d12f3ce270ba6341b650d78fb2e2142698bc9
+>>>>>>> 98d910f724e96f47e0b93cc7deb04f0461b5ac78
