@@ -30,3 +30,77 @@ input:focus {
   margin: auto;
   padding: 0px 20px;
 }
+
+header {
+  width: 100%;
+  height: 483px;
+  left: 0px;
+  top: 80px;
+  background: url(/img/contact/6liebVeAfrY.png);
+}
+
+menu {
+  background-color: #E5E5E5;
+}
+
+header .header-item p {
+  position: absolute;
+  width: 63px;
+  height: 19px;
+  right: 1327px;
+  top: 220px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #FFD2A4;
+}
+header .header-item h3 {
+  position: absolute;
+  width: 409px;
+  height: 128px;
+  right: 981px;
+  top: 255px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.contact-form {
+  display: flex;
+}
+.contact-form .Address {
+  margin-left: 128px;
+}
+
+input[type='text'] {
+  display: block;
+  border: none;
+  width: 624px;
+  height: 40px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+
+input[type='email'] {
+  display: block;
+  border: none;
+  width: 624px;
+  height: 40px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+
+input[type='submit'] {
+  /* display: block; */
+  width: 624px;
+  height: 40px;
+  margin-bottom: 12px;
+  border: none;
+  color: #1C1D28;
+  background: #FFD2A4;
+  border-radius: 4px;
+}
