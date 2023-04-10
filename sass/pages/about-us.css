@@ -1,11 +1,18 @@
-* {
-  margin: 0;
-  padding: 0;
+@use "../global";
+.about {
+  background-image: url(../../img/About/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-* {
-  font-family: "Roboto Condensed";
+.container p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #161722;
 }
+<<<<<<< HEAD
 
 *, *::after, *::before {
   box-sizing: border-box;
@@ -30,3 +37,6 @@ input:focus {
   margin: auto;
   padding: 0px 20px;
 }
+=======
+/*# sourceMappingURL=about-us.css.map */
+>>>>>>> 282d12f3ce270ba6341b650d78fb2e2142698bc9

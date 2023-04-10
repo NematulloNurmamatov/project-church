@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -153,3 +154,7 @@ input:focus {
     text-align: center !important;
   }
 }
+=======
+@use "../global";
+/*# sourceMappingURL=blog.css.map */
+>>>>>>> 282d12f3ce270ba6341b650d78fb2e2142698bc9

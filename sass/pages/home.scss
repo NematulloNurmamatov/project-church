@@ -378,11 +378,127 @@ main {
 
             .rasm {
                 margin-left: 20px;
+
                 img {
                     width: 100%;
                 }
             }
 
+        }
+    }
+
+    .section5 {
+        .sec5 {
+            margin-bottom: 50px;
+            .rr {
+                text-align: center;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                text-transform: uppercase;
+                color: #161722;
+                margin-top: 128px;
+            }
+
+            .sh {
+                text-align: center;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 64px;
+                text-align: center;
+                letter-spacing: -0.01em;
+                text-transform: uppercase;
+                color: #161722;
+                margin-top: 16px;
+                margin-bottom: 64px;
+
+            }
+
+            .cardlar {
+                display: flex;
+                justify-content: space-between;
+
+                .c {
+                    background-color: #FFF5EB;
+                    width: 24%;
+                    overflow: hidden;
+
+
+                    .r {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 12px;
+                        line-height: 14px;
+                        letter-spacing: 0.08em;
+                        text-transform: uppercase;
+                        margin-bottom: 16px;
+                        color: #A54E2B;
+                    }
+
+                    h1 {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 28px;
+                        letter-spacing: -0.01em;
+                        text-transform: uppercase;
+                        color: #161722;
+                    }
+
+                    .l {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #161722;
+                        opacity: 0.78;
+                        margin-top: 16px;
+                        margin-bottom: 48px;
+
+                    }
+
+                    .b {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #161722;
+                    }
+
+                    .t {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #161722;
+                        margin-top: 4px;
+                        margin-bottom: 32px;
+                    }
+
+                    img {
+                        width: 10%;
+                        height: 10px;
+                        background: red;
+                        transition: width 2s;
+                    }
+                }
+                .c:hover {
+                    img {
+                        width: 300px;
+                    }
+                }
+                .sc {
+                    padding-top: 48px;
+                    padding-left: 32px;
+                    padding-right: 32px;
+                }
+
+                .c1 {
+                    margin-left: 10px;
+                }
+            }
         }
     }
 }
@@ -544,6 +660,7 @@ main {
                     font-size: 40px;
                     line-height: 55px;
                 }
+
                 .people {
                     width: 70%;
                     margin: auto;
@@ -648,6 +765,7 @@ main {
                     button {
                         padding: 20px 50px;
                     }
+
                     h1 {
                         font-size: 30px;
                     }
@@ -662,10 +780,12 @@ main {
         .section4 {
             .sec4 {
                 padding: 20px 20px;
+
                 .br {
                     button {
                         padding: 20px 50px;
                     }
+
                     h1 {
                         font-size: 25px;
                     }
@@ -684,6 +804,7 @@ main {
                         font-size: 30px;
                         line-height: 40px;
                     }
+
                     button {
                         padding: 15px 40px;
                     }
@@ -691,6 +812,7 @@ main {
             }
         }
     }
+
     main {
         .section2 {
             .sec2 {
@@ -701,6 +823,7 @@ main {
             }
         }
     }
+
     main {
         .section3 {
             .sec3 {
@@ -711,14 +834,17 @@ main {
             }
         }
     }
+
     main {
         .section4 {
             .sec4 {
                 padding: 20px 20px;
+
                 .br {
                     button {
                         padding: 20px 50px;
                     }
+
                     h1 {
                         font-size: 20px;
                         line-height: 35px;
