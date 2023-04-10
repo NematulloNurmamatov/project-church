@@ -34,10 +34,11 @@ input:focus {
 main .section1 .sec1 {
   background-image: url(../../img/nematullo/homer.jpg);
   width: 100%;
-  height: auto;
   padding-bottom: 200px;
   background-size: cover;
   color: white;
+  padding-bottom: 200px;
+  background-attachment: fixed;
 }
 main .section1 .sec1 .text .p1 {
   padding-top: 280px;
