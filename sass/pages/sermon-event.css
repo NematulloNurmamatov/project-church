@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -37,24 +40,38 @@ input:focus {
 }
 
 body .container {
-  position: relative;
+  /* position: relative; */
   max-width: 1280px;
-  margin: 100px auto;
+  margin: 0px auto;
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10%; */
+}
+
+.qwerty {
+  /* position: relative; */
+  margin-top: 100px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10%;
+  grid-column-gap: 10%;
 }
+
+
+
 body .container .search {
   position: absolute;
   margin-top: 0px;
 }
+
 body .container .input {
   border-radius: 5px;
 }
+
 body .container .input .cont {
   margin-left: 5%;
   display: flex;
 }
+
 body .container .input .cont .first-p {
   margin-right: 17.5px;
   font-style: normal;
@@ -62,16 +79,20 @@ body .container .input .cont .first-p {
   font-size: 16px;
   line-height: 24px;
 }
+
 body .container .input .cont .watch {
   position: absolute;
 }
+
 body .container .input .cont .second-p {
   margin-left: 30px;
 }
+
 body .container .input .cont p {
   margin-left: 20px;
   display: flex;
 }
+
 body .container .shape {
   display: flex;
 }
@@ -91,11 +112,13 @@ input {
 .wrapper {
   margin-left: 7%;
 }
+
 .wrapper .input-data {
-  position: relative;
+  /* position: relative; */
 }
+
 .wrapper label {
-  position: absolute;
+  /* position: absolute; */
   bottom: 10px;
   left: 0px;
   color: grey;
@@ -103,8 +126,8 @@ input {
   transition: all 0.3s;
 }
 
-.input-data input:focus ~ label,
-.input-data input:valid ~ label {
+.input-data input:focus~label,
+.input-data input:valid~label {
   transform: translateY(-20px);
 }
 
@@ -125,15 +148,30 @@ button {
   margin-bottom: 40px;
 }
 
+.upcoming p{
+  margin-top: 20px;
+}
+
+.upcoming h2 {
+  margin-top: 20px;
+}
+
 .content {
   width: 100%;
   height: 100px;
   margin-top: 24px;
+  margin-bottom: 24px;
   display: flex;
 }
+
 .content .img-3 {
   width: 3px;
 }
+
+.last {
+  margin-bottom: 100px;
+}
+
 .content p {
   margin-left: 24px;
   font-style: normal;
@@ -142,4 +180,32 @@ button {
   line-height: 130%;
   opacity: 0.78;
   color: #161722;
-}/*# sourceMappingURL=sermon-event.css.map */
+}
+
+
+@media(max-width: 915px) {
+
+  .last {
+    /* overflow: scroll; */
+    margin-bottom: 300px;
+  }
+
+  .book img {
+    width: 100%;
+
+  }
+
+  .qwerty {
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+  }
+}
+
+
+@media(max-width: 520px) {
+  .content p {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=sermon-event.css.map */

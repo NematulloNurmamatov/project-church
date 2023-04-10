@@ -5,10 +5,12 @@ main {
         .sec1 {
             background-image: url(../../img/nematullo/homer.jpg);
             width: 100%;
-            height: auto;
+            // height: auto;
             padding-bottom: 200px;
             background-size: cover;
             color: white;
+            padding-bottom: 200px;
+            background-attachment: fixed;
             // background-position:;
 
             .text {
@@ -366,6 +368,7 @@ main {
                     text-transform: uppercase;
                     color: #1C1D28;
                     transition: .5s;
+
                     &:hover {
                         background-color: transparent;
                     }
@@ -373,6 +376,129 @@ main {
                 }
             }
 
+            .rasm {
+                margin-left: 20px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+
+    .section5 {
+        .sec5 {
+            margin-bottom: 50px;
+            .rr {
+                text-align: center;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                text-transform: uppercase;
+                color: #161722;
+                margin-top: 128px;
+            }
+
+            .sh {
+                text-align: center;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 64px;
+                text-align: center;
+                letter-spacing: -0.01em;
+                text-transform: uppercase;
+                color: #161722;
+                margin-top: 16px;
+                margin-bottom: 64px;
+
+            }
+
+            .cardlar {
+                display: flex;
+                justify-content: space-between;
+
+                .k {
+                    background-color: #FFF5EB;
+                    width: 24%;
+                    overflow: hidden;
+
+
+                    .r {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 12px;
+                        line-height: 14px;
+                        letter-spacing: 0.08em;
+                        text-transform: uppercase;
+                        margin-bottom: 16px;
+                        color: #A54E2B;
+                    }
+
+                    h1 {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 28px;
+                        letter-spacing: -0.01em;
+                        text-transform: uppercase;
+                        color: #161722;
+                    }
+
+                    .l {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #161722;
+                        opacity: 0.78;
+                        margin-top: 16px;
+                        margin-bottom: 48px;
+
+                    }
+
+                    .b {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #161722;
+                    }
+
+                    .t {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #161722;
+                        margin-top: 4px;
+                        margin-bottom: 32px;
+                    }
+
+                    img {
+                        width: 10%;
+                        height: 10px;
+                        background: red;
+                        transition: width 2s;
+                    }
+                }
+                .k:hover {
+                    img {
+                        width: 300px;
+                    }
+                }
+                .sc {
+                    padding-top: 48px;
+                    padding-left: 32px;
+                    padding-right: 32px;
+                }
+
+                .c1 {
+                    margin-left: 10px;
+                }
+            }
         }
     }
 }
@@ -383,8 +509,10 @@ main {
             .sec3 {
                 .flex {
                     flex-direction: column-reverse;
+
                     .bir {
                         width: 100%;
+                        padding-bottom: 20px;
                     }
                 }
             }
@@ -414,6 +542,7 @@ main {
                     h1 {
                         font-size: 55px;
                     }
+
                     .p1 {
                         font-size: 15px;
                     }
@@ -449,14 +578,20 @@ main {
             }
         }
     }
+
     main {
         .section4 {
             .sec4 {
                 flex-direction: column;
                 align-items: center;
                 text-align: center;
-                img {
-                    margin-top: 30px;
+
+                .rasm {
+                    margin-left: 0px;
+
+                    img {
+                        margin-top: 30px;
+                    }
                 }
             }
         }
@@ -476,9 +611,13 @@ main {
             }
         }
     }
+
     main .section2 .sec2 .people {
+        width: 60%;
+        margin: auto;
         flex-direction: column;
         margin-top: 50px;
+
         .ikki {
             margin-left: 0px;
             margin-right: 0px;
@@ -505,7 +644,7 @@ main {
     main {
         .section1 {
             .sec1 {
-                .text {          
+                .text {
                     button {
                         padding: 18px 50px;
                     }
@@ -513,6 +652,25 @@ main {
             }
         }
     }
+
+    main {
+        .section2 {
+            .sec2 {
+                h1 {
+                    font-size: 40px;
+                    line-height: 55px;
+                }
+
+                .people {
+                    width: 70%;
+                    margin: auto;
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+
+
     main {
         .section3 {
             .sec3 {
@@ -520,6 +678,7 @@ main {
                     font-size: 30px;
                     line-height: 50px;
                 }
+
                 .flex {
                     .bir {
                         padding-top: 40px;
@@ -531,6 +690,7 @@ main {
             }
         }
     }
+
     main {
         .section4 {
             .sec4 {
@@ -546,6 +706,12 @@ main {
 }
 
 @media(max-width: 460px) {
+    main .section2 .sec2 .people {
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
     main {
         .section3 {
             .sec3 {
@@ -562,7 +728,7 @@ main {
     main {
         .section1 {
             .sec1 {
-                .text {          
+                .text {
                     h1 {
                         font-size: 35px;
                         line-height: 50px;
@@ -571,6 +737,13 @@ main {
             }
         }
     }
+
+    main .section2 .sec2 .people {
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
     main {
         .section3 {
             .sec3 {
@@ -584,12 +757,97 @@ main {
             }
         }
     }
+
     main {
         .section4 {
             .sec4 {
                 .br {
                     button {
                         padding: 20px 50px;
+                    }
+
+                    h1 {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 350px) {
+    main {
+        .section4 {
+            .sec4 {
+                padding: 20px 20px;
+
+                .br {
+                    button {
+                        padding: 20px 50px;
+                    }
+
+                    h1 {
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 300px) {
+    main {
+        .section1 {
+            .sec1 {
+                .text {
+                    h1 {
+                        font-size: 30px;
+                        line-height: 40px;
+                    }
+
+                    button {
+                        padding: 15px 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        .section2 {
+            .sec2 {
+                h1 {
+                    font-size: 30px;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+
+    main {
+        .section3 {
+            .sec3 {
+                h2 {
+                    font-size: 24px;
+                    line-height: 35px;
+                }
+            }
+        }
+    }
+
+    main {
+        .section4 {
+            .sec4 {
+                padding: 20px 20px;
+
+                .br {
+                    button {
+                        padding: 20px 50px;
+                    }
+
+                    h1 {
+                        font-size: 20px;
+                        line-height: 35px;
                     }
                 }
             }
