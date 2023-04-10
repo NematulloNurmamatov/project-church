@@ -239,7 +239,9 @@ opacity: 0.7;
   grid-template-rows: 1fr 1fr; 
   gap: 24px 24px; 
 }
-}
+}  
+
+
 @media (max-width:600px){
   ._section-center{
     flex-direction: column;
