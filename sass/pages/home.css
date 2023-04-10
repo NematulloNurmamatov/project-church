@@ -466,7 +466,7 @@ main .section5 .sec5 .cardlar .k img {
 }
 
 main .section5 .sec5 .cardlar .k:hover img {
-  width: 300px;
+  width: 100%;
 }
 
 main .section5 .sec5 .cardlar .sc {
@@ -502,6 +502,14 @@ main .section5 .sec5 .cardlar .c1 {
   main .section1 .sec1 .text .p1 {
     font-size: 15px;
   }
+  main .section5 .sec5 .cardlar {
+    flex-direction: column;
+  }
+  main .section5 .sec5 .cardlar .k {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -526,6 +534,14 @@ main .section5 .sec5 .cardlar .c1 {
   }
   main .section4 .sec4 .rasm img {
     margin-top: 30px;
+  }
+  main .section5 .sec5 .cardlar {
+    flex-direction: column;
+  }
+  main .section5 .sec5 .cardlar .k {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
   }
 }
 
@@ -581,6 +597,14 @@ main .section5 .sec5 .cardlar .c1 {
   main .section4 .sec4 .br h1 {
     font-size: 30px;
     line-height: 45px;
+  }
+  main .section5 .sec5 .cardlar {
+    flex-direction: column;
+  }
+  main .section5 .sec5 .cardlar .k {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
   }
 }
 
@@ -656,3 +680,4 @@ main .section5 .sec5 .cardlar .c1 {
     line-height: 35px;
   }
 }
+/*# sourceMappingURL=home.css.map */
