@@ -135,7 +135,7 @@ menu {
 input[type=text] {
   display: block;
   margin-bottom: 12px;
-  width: 634px;
+  width: 200%;
   height: 40px;
   border-radius: 4px;
   border: none;
@@ -145,7 +145,7 @@ input[type=email] {
   display: block;
   margin-bottom: 12px;
   border-radius: 4px;
-  width: 634px;
+  width: 200%;
   height: 40px;
   border: none;
 }
@@ -154,7 +154,7 @@ input[type=submit] {
   display: block;
   margin-bottom: 12px;
   border-radius: 4px;
-  width: 634px;
+  width: 200%;
   height: 40px;
   border: none;
   background: #FFD2A4;

@@ -240,7 +240,7 @@
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 1000px) {
   .flex {
     flex-direction: column;
     text-align: center;
@@ -249,5 +249,56 @@
   .right h2 {
     font-size: 25px !important;
     text-align: center !important;
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .section5 {
+    .sec5 {
+      .cardlar {
+        flex-direction: column;
+
+        .k {
+          width: 50%;
+          margin: auto;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .section5 {
+    .sec5 {
+      .cardlar {
+        flex-direction: column;
+
+        .k {
+          width: 80%;
+          margin: auto;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  .section5 {
+    .sec5 {
+      .cardlar {
+        flex-direction: column;
+
+        .k {
+          width: 90%;
+          margin: auto;
+          margin-bottom: 20px;
+        }
+      }
+    }
   }
 }

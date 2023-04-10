@@ -65,6 +65,88 @@ main {
         }
     }
 
+    #Home {
+        padding: 70px 0;
+    }
+
+    .tx {
+        text-align: center;
+
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: #3858D6;
+        }
+
+        h1 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            text-align: center;
+            color: #1E1D1D;
+        }
+    }
+
+    .flex {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        width: 93%;
+        padding: 60px 0px;
+
+        .card {
+            position: relative;
+            background: #FFF5EB;
+            overflow: hidden;
+            width: 98%;
+            margin: auto;
+            padding: 50px 50px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+
+            .content2 {
+                font-family: "Montserrat", sans-serif;
+                font-style: normal;
+                position: relative;
+                color: black;
+                z-index: 2;
+                -webkit-transition: 1s;
+                -o-transition: 1s;
+                transition: .5s;
+
+                img {
+                    width: 50px;
+                }
+            }
+
+            &:before {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: calc(-100% + 9px);
+                width: 100%;
+                height: 100%;
+                background: #FFD2A4;
+                z-index: 1;
+                -webkit-transition: 0.9s;
+                -o-transition: 0.9s;
+                transition: 0.9s;
+            }
+        }
+    }
+
+    .card:hover:before {
+        bottom: 0;
+    }
+
     .section2 {
         .sec2 {
             text-align: center;
@@ -390,6 +472,7 @@ main {
     .section5 {
         .sec5 {
             margin-bottom: 50px;
+
             .rr {
                 text-align: center;
                 font-style: normal;
@@ -484,11 +567,13 @@ main {
                         transition: width 2s;
                     }
                 }
+
                 .k:hover {
                     img {
                         width: 100%;
                     }
                 }
+
                 .sc {
                     padding-top: 48px;
                     padding-left: 32px;
@@ -534,6 +619,19 @@ main {
     }
 }
 
+@media (max-width:1000px) {
+    main {
+        .flex {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+            .card {
+                width: 100%;
+            }
+        }
+    }
+}
+
 @media(max-width: 900px) {
     main {
         .section1 {
@@ -550,11 +648,13 @@ main {
             }
         }
     }
+
     main {
         .section5 {
             .sec5 {
                 .cardlar {
                     flex-direction: column;
+
                     .k {
                         width: 50%;
                         margin: auto;
@@ -610,11 +710,13 @@ main {
             }
         }
     }
+
     main {
         .section5 {
             .sec5 {
                 .cardlar {
                     flex-direction: column;
+
                     .k {
                         width: 70%;
                         margin: auto;
@@ -624,6 +726,27 @@ main {
             }
         }
     }
+}
+
+@media (max-width:700px) {
+    main {
+        .flex {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+
+            .card {
+                position: relative;
+                background: #FFF5EB;
+                overflow: hidden;
+                width: 98%;
+                margin: auto;
+                padding: 30px 30px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
 }
 
 @media(max-width: 600px) {
@@ -731,11 +854,13 @@ main {
             }
         }
     }
+
     main {
         .section5 {
             .sec5 {
                 .cardlar {
                     flex-direction: column;
+
                     .k {
                         width: 90%;
                         margin: auto;
