@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +24,87 @@ input:focus {
 
 .container {
   max-width: 1280px;
-  margin: auto;
+  margin: 0px auto;
   padding: 0px 20px;
+}
+
+* {
+  font-family: "Roboto";
+}
+
+body .conteiner {
+  max-width: 1280px;
+  margin: 0px auto;
+}
+
+.conteiner .first-content {
+  text-align: center;
+}
+.conteiner p {
+  color: #A54E2B;
+  font-style: normal;
+}
+.conteiner .by {
+  display: flex;
+  justify-content: center;
+}
+.conteiner .by p {
+  color: #161722;
+  opacity: 0.78;
+  margin-top: 16px;
+  margin-left: 13px;
+}
+.conteiner h2 {
+  margin-top: 16px;
+}
+.conteiner .img-1 {
+  margin-top: 64px;
+  width: 100%;
+}
+
+.conteiner .second-content {
+  padding: 0px 25%;
+}
+.conteiner .second-content p {
+  color: #161722;
+  opacity: 0.78;
+  margin-top: 16px;
+}
+.conteiner .second-content .img-2 {
+  margin-top: 64px;
+  margin-bottom: 48px;
+  width: 100%;
+}
+.conteiner .second-content .content {
+  overflow: hidden;
+  width: 100%;
+  height: 100px;
+  margin-top: 24px;
+  display: flex;
+}
+.conteiner .second-content .content .img-3 {
+  width: 3px;
+}
+.conteiner .second-content .content p {
+  margin-left: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  opacity: 0.78;
+  color: #161722;
+}
+.conteiner .second-content h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+.conteiner .second-content ul {
+  margin-top: 32px;
+  color: #161722;
+  opacity: 0.78;
+  margin-left: 20px;
+}
+.conteiner .second-content ul li {
+  margin-top: 8px;
 }/*# sourceMappingURL=blog-post.css.map */
